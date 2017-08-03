@@ -1,0 +1,19 @@
+
+body {
+  background-image: url("1ee8dde69c5e55a26397a6cb0bd5650a.png");
+  background-color: #778899;
+}
+
+
+.button {
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  margin: 20px 0px -300px 10px
+  padding: 7px 6px 7px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
