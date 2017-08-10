@@ -1,40 +1,86 @@
-/*body {
-  background-image: url("1ee8dde69c5e55a26397a6cb0bd5650a.png");
-  background-color: #778899;
+@font-face {  
+  font-family: spaceman;  
+  src: url(CSS/SPACEMAN.ttf) format("truetype");
+  src: local("spaceman"), url(CSS/SPACEMAN.ttf) format("truetype");
+  src: local("spaceman"),
+      local('spaceman'),
+      local("SPACEMAN"),
+      local('SPACEMAN'),
+      url(CSS/SPACEMAN.tff) format('truetype');
 }
-*/
-h1 {
-  color: black;
 
+body {
+  background-image: url("thumb-1920-357751.jpg");
+}
+
+h1 {
+  color: #F0F8FF;
+  margin-left: 10px;
+  font-family: spaceman;
+  font-style: italic;
 }
 
 .button {
-  font: bold 15px Arial;
+  font: bold 20px spaceman;
   text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
-  margin-right: 50px;
-  padding: 7px 6px 7px 6px;
+  background-color: #F0F8FF;
+  color: #22316C;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  padding: 7px 8px 7px 8px;
   border-top: 1px solid #CCCCCC;
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
+  border-radius: 12px;
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#off {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#on {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 select {
-  margin-top: 50px;
+  font: bold 20px spaceman;
+  text-decoration: none;
+  background-color: #F0F8FF;
+  color: #22316C;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 7px 8px 7px 8px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 12px;
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+img {
+  margin-left: 20px;
 }
 
 @media only screen and (max-width: 500px) {
-    .gridmenu {
-        width:100%;
-    }
+  .container {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-direction:column
+  }
+  #off {
+    padding: 7px 8px 7px 8px;
+  }
 
-    .gridmain {
-        width:100%;
-    }
-
-    .gridright {
-        width:100%;
-    }
+  #on {
+    padding: 7px 8px 7px 8px;
+  }
 }
+
