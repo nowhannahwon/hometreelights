@@ -1,12 +1,12 @@
 @font-face {  
   font-family: spaceman;  
-  src: url(CSS/SPACEMAN.ttf) format("truetype");
-  src: local("spaceman"), url(CSS/SPACEMAN.ttf) format("truetype");
+  src: url(SPACEMAN.ttf) format("truetype");
+  src: local("spaceman"), url(SPACEMAN.ttf) format("truetype");
   src: local("spaceman"),
       local('spaceman'),
       local("SPACEMAN"),
       local('SPACEMAN'),
-      url(CSS/SPACEMAN.tff) format('truetype');
+      url(SPACEMAN.ttf) format('truetype');
 }
 
 body {
